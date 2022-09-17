@@ -23,7 +23,29 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+header {
+  text-align: center;
+  
+}
+content {
+  text-align: center;
+  bottom: 90%;
+}
 
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +57,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.content{
+  text-align: center;
+}
+button{
+  margin-left: 10px;
+}
+a{
+  margin-left: 10px;
+}
+
+footer{
+  text-align: center;
+}
+
+.countriesdashboard{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+}
+.countriesdashboard div{
+width: 250px;
+height: 250px;
+margin: 10px;
+}
+
+.countriesdashboard div img{
+  height: 200px;
+  width: 200px;
+}
+
+.error{
+  color:red;
 }
